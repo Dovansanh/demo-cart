@@ -11,39 +11,94 @@
 </head>
 
 <body>
+    <!-- cart-full -->
     <div class="cart">
         <div class="cart-header">
-            <div class="cart-header__icon">
-                <i class="ti-heart"></i>
-                <i class="ti-shopping-cart"></i>
+            <div class="cart-header__img">
+                <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/272991438_2488494981285917_7655026935297572769_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DFWGXIufpAgAX-boz46&_nc_ht=scontent.fdad3-1.fna&oh=00_AT9ei2huIckRO-spYv6OZ_dQzG8lXnsFGv5GxcVylljAxw&oe=628A8E2E"
+                    alt="">
             </div>
+            <h2 class="cart-header__heading">
+                Van Sanh
+            </h2>
+            <p class="cart-header__titel">Fullstack Developer</p>
         </div>
         <div class="cart-body">
-            <div class="cart-body__img">
-                <img src="data:image/jpeg;base64,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
-                    alt=" />
-            </div>
-            <h2 class="cart-body__heading ">Nike Zoom KD 12</h2>
-            <p class="cart-body__title ">$99</p>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-facebook"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-youtube"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-linkedin"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-pinterest-alt"></i>
+            </a>
         </div>
         <div class="cart-footer ">
-            <div class="cart-footer__size ">
-                <h2>Size:</h2>
-                <p>6</p>
-                <p>7</p>
-                <p>8</p>
-                <p>9</p>
+            <button class="cart-footer__btn">Contact me</button>
+        </div>
+    </div>
+    <!-- cart-full -->
+    <div class="cart">
+        <div class="cart-header">
+            <div class="cart-header__img">
+                <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/272991438_2488494981285917_7655026935297572769_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DFWGXIufpAgAX-boz46&_nc_ht=scontent.fdad3-1.fna&oh=00_AT9ei2huIckRO-spYv6OZ_dQzG8lXnsFGv5GxcVylljAxw&oe=628A8E2E"
+                    alt="">
             </div>
-            <div class="cart-footer__color ">
-                <h2>Color:</h2>
-                <p class="cart-footer__color-green "></p>
-                <p class="cart-footer__color-red "></p>
-                <p class="cart-footer__color-black "></p>
+            <h2 class="cart-header__heading">
+                Van Sanh
+            </h2>
+            <p class="cart-header__titel">Fullstack Developer</p>
+        </div>
+        <div class="cart-body">
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-facebook"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-youtube"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-linkedin"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-pinterest-alt"></i>
+            </a>
+        </div>
+        <div class="cart-footer ">
+            <button class="cart-footer__btn">Contact me</button>
+        </div>
+    </div>
+    <!-- cart-full -->
+    <div class="cart">
+        <div class="cart-header">
+            <div class="cart-header__img">
+                <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/272991438_2488494981285917_7655026935297572769_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DFWGXIufpAgAX-boz46&_nc_ht=scontent.fdad3-1.fna&oh=00_AT9ei2huIckRO-spYv6OZ_dQzG8lXnsFGv5GxcVylljAxw&oe=628A8E2E"
+                    alt="">
             </div>
-            <div class="cart-footer__button ">
-                <button class="btn">Buy Now</button>
-                <button class="btn">Add cart</button>
-            </div>
+            <h2 class="cart-header__heading">
+                Van Sanh
+            </h2>
+            <p class="cart-header__titel">Fullstack Developer</p>
+        </div>
+        <div class="cart-body">
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-facebook"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-youtube"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-linkedin"></i>
+            </a>
+            <a href="" class="cart-body__link">
+                <i class=" cart-body__link ti-pinterest-alt"></i>
+            </a>
+        </div>
+        <div class="cart-footer ">
+            <button class="cart-footer__btn">Contact me</button>
         </div>
     </div>
 
